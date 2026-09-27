@@ -1,0 +1,22 @@
+{
+  "name": "GM Gestión · Gonzalez Marasca",
+  "short_name": "GM Gestión",
+  "description": "Sistema de gestión de la inmobiliaria Gonzalez Marasca",
+  "lang": "es-AR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f1ed",
+  "theme_color": "#202020",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Agenda", "url": "./#/agenda" },
+    { "name": "Consultas web", "url": "./#/consultas" },
+    { "name": "Nuevo cliente", "url": "./#/clientes/nuevo" }
+  ]
+}
